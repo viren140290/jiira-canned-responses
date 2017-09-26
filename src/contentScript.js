@@ -257,9 +257,16 @@ var __gcrExtAnswers;
     textarea.value += item.answer + '\n';
 
     // Scroll down.
-    textarea.focus();
     textarea.scrollTop = textarea.scrollHeight;
     currentParent.classList.toggle("active");
+    textarea.focus();
+    var formElementId =  event.target.closest('form').getAttribute("id")
+    if(formElementId) {
+      var formSubmitButton = document.querySelector("#" + formElementId + " input[type=submit]")
+      if(formSubmitButton && formSubmitButton.disabled == true) {
+        formSubmitButton.disabled = false;
+      }
+    }
   }
 
   function showEditView() {
