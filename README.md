@@ -5,7 +5,7 @@ such as story templates, review templates etc.
 
 ## How to get it
 
-Coming soon
+[Install it from the Chrome Web Store](https://chrome.google.com/webstore/detail/jira-canned-responses/doldccghdnpebpepkbcgipnjfgkphpbd)
 
 ## What is it
 
