@@ -1,0 +1,26 @@
+{
+  "name": "jira-canned-responses",
+  "version": "0.1.0",
+  "description": "Choose from a set of canned responses when commenting on your Jira issues",
+  "main": "background.js",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-json-editor": "^2.2.1",
+    "gulp-zip": "^3.1.0",
+    "merge-stream": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viren140290/jira-canned-responses.git"
+  },
+  "author": "Viren Sawant",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/viren140290/jira-canned-responses/issues"
+  },
+  "homepage": "https://github.com/viren140290/jira-canned-responses#readme"
+}
