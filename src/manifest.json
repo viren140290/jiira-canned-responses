@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name" : "Jira Canned Responses",
   "description" : "Choose from a set of canned responses for your jira comments and descriptions ",
-  "version" : "0.1.0",
+  "version" : "0.1.1",
   "icons": {
    "128": "logo.png"
   },
@@ -10,7 +10,7 @@
     "activeTab"
   ],
   "options_page": "options.html",
-  "stg": [
+  "content_scripts": [
     {
       "js": ["editor.js", "contentScript.js"],
       "css": ["options.css"],
