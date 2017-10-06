@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name" : "Jira Canned Responses",
   "description" : "Choose from a set of canned responses for your jira comments and descriptions ",
-  "version" : "0.1.2",
+  "version" : "0.1.3",
   "icons": {
    "128": "logo.png"
   },
