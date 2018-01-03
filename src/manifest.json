@@ -9,16 +9,18 @@
   "permissions": [
     "activeTab"
   ],
-  "options_page": "options.html",
+  "options_ui": {
+    "page": "options.html"
+  },
   "content_scripts": [
     {
       "js": ["editor.js", "contentScript.js"],
       "css": ["options.css"],
-      "matches": ["*://*/*"]
+      "matches": ["*://*/*"],
+      "include_globs": [
+        "*jira*"
+      ]
     }
-  ],
-  "include_globs": [
-    "*jira*"
   ],
   "background": {
     "scripts": ["background.js"]
