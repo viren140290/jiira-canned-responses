@@ -7,6 +7,9 @@ such as story templates, review templates etc.
 
 [Install it from the Chrome Web Store](https://chrome.google.com/webstore/detail/jira-canned-responses/doldccghdnpebpepkbcgipnjfgkphpbd)
 
+
+[Install it from the Mozilla Web Store](https://addons.mozilla.org/en-US/firefox/addon/jira-canned-responses)
+
 ## What is it
 
 The extension adds a little button inside jira comments/text areas, that allows you to choose one of the existing canned responses, and insert it in the current comment.
